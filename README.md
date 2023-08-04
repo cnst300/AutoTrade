@@ -1,6 +1,8 @@
 # AutoTrade - Car Buying, Selling, and Rental Platform
 
-![AutoTrade Logo](link_to_logo.png)
+![AutoTrade Logo](https://github.com/cnst300/AutoTrade/assets/111741263/ee83f019-6379-42db-90fc-36b81b1cf30e)
+
+
 
 ## Description
 
@@ -46,6 +48,6 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 If you have any questions or suggestions, please feel free to reach out to us:
 
 - Email: constantin_jenaru@yahoo.ro
-- GitHub: [Cnst300](https://github.com/Cnst300)
+- GitHub: [Cnst300](https://github.com/cnst300)
 
 Thank you for using AutoTrade! Happy trading!
