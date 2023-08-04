@@ -1,0 +1,5 @@
+server:
+  port: 8000
+  server:
+    servlet:
+      enable-logging-request-details: true
