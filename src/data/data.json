@@ -1,0 +1,58 @@
+ [
+    {
+      "make": "Bugatti",
+      "model": "Chiron",
+      "price": "$3.9 million",
+      "image": "https://cdn.motor1.com/images/mgl/8A9jvB/s3/bugatti-chiron-delivery-main.jpg",
+      "engine": "8.0L W16 quad-turbocharged"
+    },
+    {
+      "make": "Lamborghini",
+      "model": "Aventador SVJ",
+      "price": "$517,770",
+      "image": "https://www.digitaltrends.com/wp-content/uploads/2018/09/2019-lamborghini-aventador-svj-first-drive-29548.jpg?resize=1200%2C630&p=1",
+      "engine": "6.5L V12 naturally-aspirated"
+    },
+    {
+      "make": "Ferrari",
+      "model": "812 Superfast",
+      "price": "$335,000",
+      "image": "https://www.themanual.com/wp-content/uploads/sites/9/2020/10/ferrari-812-superfast-review-17.jpg?resize=1500%2C1000&p=1",
+      "engine": "6.5L V12 naturally-aspirated"
+    },
+    {
+      "make": "McLaren",
+      "model": "720S",
+      "price": "$299,000",
+      "image": "https://images.drive.com.au/driveau/image/upload/c_fill,f_auto,g_auto,h_675,q_auto:best,w_1200/v1/cms/uploads/p2qwwbsqyuxwib8hkmxo",
+      "engine": "4.0L V8 twin-turbocharged"
+    },
+    {
+      "make": "Porsche",
+      "model": "911 Turbo S",
+      "price": "$203,500",
+      "image": "https://i.ytimg.com/vi/GXwaQIZJkp8/maxresdefault.jpg",
+      "engine": "3.8L twin-turbocharged flat-six"
+    },
+    {
+      "make": "Aston Martin",
+      "model": "Valkyrie",
+      "price": "$3.2 million",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e1/2023_Aston_Martin_Valkyrie_17.jpg",
+      "engine": "6.5L V12 naturally-aspirated with Cosworth KERS hybrid system"
+    },
+    {
+    "make": "Pagani",
+    "model": "Huayra BC",
+    "price": "$3 million",
+    "image": "https://www.carscoops.com/wp-content/uploads/2020/12/Pagani-Huayra-Roadster-4a-1024x555.jpg",
+    "engine": "6.0L V12 naturally-aspirated"
+  },
+  {
+    "make": "Bugatti",
+    "model": "Centodieci",
+    "price": "$8.9 million",
+    "image": "https://hips.hearstapps.com/hmg-prod/images/bugatti-centodieci-1565813005.jpg?crop=0.795xw:0.527xh;0.145xw,0.473xh&resize=640:*",
+    "engine": "8.0L W16 quad-turbocharged"
+  }
+]

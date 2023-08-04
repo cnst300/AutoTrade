@@ -1,0 +1,19 @@
+.carousel-container {
+  width: 50%;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.carousel {
+  display: grid;
+  justify-items: center;
+  border-radius: 20px;
+}
+
+.carousel .control-dots .dot {
+  background-color: brown;
+}
+
+.carouse .thumb {
+  border: goldenrod 2px solid;
+}

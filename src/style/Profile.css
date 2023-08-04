@@ -1,0 +1,11 @@
+.profileContainer h1 {
+    color: white;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profileContainer p {
+    color: antiquewhite;
+    font-size: 20px;
+}

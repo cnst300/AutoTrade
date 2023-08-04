@@ -1,0 +1,299 @@
+.aboutContainer {
+display: grid;
+grid-template-columns: repeat(2, 100%);
+z-index: -1;
+}
+
+.imageAboutBanner {
+height: 70vh;
+position: absolute;
+left: 12%;
+top: 20% !important;
+overflow: auto;
+top: 15%;
+}
+
+.textAbout h2 {
+color: rgb(253, 253, 253);
+}
+
+.textAbout p {
+color: rgb(227, 227, 227);
+font-size: 15px;
+}
+
+.textAbout {
+grid-template-rows: 5% 95%;
+display: grid;
+position: relative;
+top: 35%;
+padding: 3.35% 5% 5% 2% ;
+left: 38%;
+top: 28.3%;
+align-content: center;
+justify-items: center;
+max-height: 100%;
+max-width: 60%;
+width: 40%;
+align-items: center;
+text-align: justify;
+backdrop-filter: blur(30px);
+background-color: rgba(0, 0, 0, 0.301);
+}
+
+@media (min-width: 1600px) and (max-width: 2561px){
+    .aboutContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            z-index: -1;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .imageAboutBanner {
+            height: 70vh;
+            position: absolute;
+            left: 6%;
+            top: 20% !important;
+            overflow: auto;
+            top: 15%;
+        }
+    
+        .textAbout h2 {
+            color: rgb(253, 253, 253);
+            font-size: 60px;
+        }
+    
+        .textAbout p {
+            color: rgb(227, 227, 227);
+            font-size: 30px;
+        }
+    
+        .textAbout {
+            grid-template-rows: 5% 95%;
+            display: grid;
+            position: relative;
+            top: 35%;
+            padding: 3.35% 5% 2% 2%;
+            left: 100%;
+            top: 31%;
+            align-content: center;
+            justify-items: center;
+            max-height: 100%;
+            max-width: 80%;
+            width: 100%;
+            height: 100% ;
+            text-align: justify;
+            backdrop-filter: blur(30px);
+            background-color: rgba(0, 0, 0, 0.301);
+        }
+}
+
+/* Media Queries */
+@media (max-width: 1440px) {
+    .aboutContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 100%);
+            position: absolute;
+            left: 0%;
+            top: 10%;
+            justify-content: start;
+            z-index: -1;
+        }
+    
+        .imageAboutBanner {
+            height: 70vh;
+            position: absolute;
+            overflow: auto;
+            top: 15%;
+            left: 8%;
+        }
+    
+        .textAbout h2 {
+            color: rgb(253, 253, 253);
+            font-size: 30px;
+        }
+    
+        .textAbout p {
+            color: rgb(227, 227, 227);
+            font-size: 18px;
+        }
+    
+        .textAbout {
+            grid-template-rows: 5% 95%;
+            display: grid;
+            position: relative;
+            top: 35%;
+            padding: 4.5% 5% 1.5% 2%;
+            left: 32%;
+            top: 19.8%;
+            align-content: center;
+            justify-items: center;
+            max-height: 100%;
+            max-width: 80%;
+            width: 55%;
+        text-align: justify;
+            backdrop-filter: blur(30px);
+            background-color: rgba(0, 0, 0, 0.301);
+        }
+}
+
+@media (max-width: 1024px) {
+.aboutContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 100%);
+        position: absolute;
+        left: 0%;
+        top: 4%;
+        justify-content: start;
+        z-index: -1;
+    }
+
+    .imageAboutBanner {
+        height: 70vh;
+        position: absolute;
+        overflow: auto;
+        top: 15%;
+    }
+
+    .textAbout h2 {
+        color: rgb(253, 253, 253);
+    }
+
+    .textAbout p {
+        color: rgb(227, 227, 227);
+        font-size: 14px;
+    }
+
+    .textAbout {
+        grid-template-rows: 5% 95%;
+        display: grid;
+        position: relative;
+        top: 35%;
+        padding: 4.2% 5% 2% 2%;
+        left: 30%;
+        top: 20%;
+        align-content: center;
+        justify-items: center;
+        max-height: 100%;
+        max-width: 60%;
+        width: 55%;
+        text-align: justify;
+        backdrop-filter: blur(30px);
+        background-color: rgba(0, 0, 0, 0.301);
+    }}
+
+
+@media (max-width: 768px) {
+.aboutContainer {
+    grid-template-columns: 80%;
+    max-width: 90%;
+    max-height: 100%;
+}
+
+.aboutContainer img {
+    display: none !important;
+}
+
+
+.imageAboutBanner {
+    height: 75%;
+    width: 90%;
+    border: none;
+}
+
+.textAbout {
+    grid-template-rows: unset;
+    display: relative;
+    max-height: unset;
+    max-width: 100%;
+    height: 90%;
+    width: 80%;
+    top: 20%;
+    left: 28%;
+    text-align: justify;
+    margin-inline: 0 auto;
+    max-height: 100%;
+    align-items: center;
+}
+}
+
+@media (max-width: 426px) {
+.aboutContainer {
+max-width: 100%;
+max-height: 120%;
+padding: 0;
+}
+
+.aboutContainer img {
+display: none !important;
+}
+
+.textAbout {
+    grid-template-rows: unset;
+    display: relative;
+    max-height: unset;
+    max-width: 100%;
+    height: 90%;
+    width: 90%;
+    top: 10%;
+    text-align: justify;
+    left: 17%;
+    margin-inline: 0 auto;
+    max-height: 100%;
+}
+}
+
+@media (max-width: 376px) {
+    .aboutContainer {
+        max-width: 100%;
+        max-height: 120%;
+        padding: 0;
+    }
+
+    .aboutContainer img {
+        display: none !important;
+    }
+
+    .textAbout {
+        grid-template-rows: unset;
+        display: relative;
+        max-height: unset;
+        max-width: 100%;
+        height: 90%;
+        width: 100%;
+        top: 10%;
+        text-align: justify;
+        left: 10%;
+        margin-inline: 0 auto;
+        max-height: 100%;
+    }
+}
+
+@media (max-width: 321px) {
+    .aboutContainer {
+        max-width: 100%;
+        max-height: 140% !important;
+        padding: 0;
+    }
+
+    .aboutContainer img {
+        display: none !important;
+    }
+
+        .textAbout h2 {
+            font-size: 22px;
+        }
+
+    .textAbout {
+        background-color: rgba(0, 0, 0, 0.616);
+        backdrop-filter: blur(150px) !important;
+        position: relative;
+        width: 100%;
+        top: 5%;
+        text-align: justify;
+        align-items: center;
+        padding: 3% 5% 5% 5%; 
+    }
+}

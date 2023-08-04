@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="favicon" href="../src/assets/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+ 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/29b4222b93.js" crossorigin="anonymous"></script>
+    <title>AutoTrade.Com</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script>
+
+      $(document).ready(function () {
+        $(".expandHome").mouseover(function () {
+          $(".sub-home").css("display", "block");
+        });
+
+        $(".subnavbtn").mouseover(function () {
+          $(".sub-home").css("display", "none");
+        });
+
+        $("#trapezoid").mouseleave(function () {
+          $("#trapezoid").css("margin-top", "-53px");
+          $(".sub-home").css("display", "none");
+        }).mouseenter(function () {
+          $("#trapezoid").css("margin-top", "0px");
+        });
+      });
+      
+    </script>
+  </body>
+</html>

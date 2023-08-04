@@ -1,0 +1,206 @@
+/* Login.css */
+
+.login-container {
+    position: relative;
+    display: grid;
+    max-width: 40em;
+    margin: 0 auto;
+    background-color: #00000050;
+    backdrop-filter: blur(150px) !important;
+    border-radius: 2px;
+    padding: 2em 3em 2em 3em;
+    margin-top: 10%;
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 0 2px 0 rgb(95, 95, 95);
+    border-radius: 1%;
+    z-index: 0 !important;
+    
+}
+
+.login-avatar {
+    width: 100px;
+    height: 100px;
+}
+
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    z-index: -1 !important;
+}
+
+
+
+form.formLogin  {
+    display: grid;
+    justify-items: center;
+}
+
+.formLogin input {
+        padding: 10px;
+        margin-bottom: 10px;
+        margin-top: 5px;
+        border-radius: 4px;
+        border: none;
+        color: white;
+        background-color: #8d8d8d80;
+}
+
+.formLogin  button {
+    background-color: darkorange;
+    max-width: 20em;
+    max-height: 3em;
+    font-size: 15px;
+    color: white;
+    height: 2.5em;
+}
+
+.formLogin button:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+    color: orange !important;
+    border: none;
+    box-shadow: 0px 0px 10px 0px orange !important;
+}
+
+
+
+.formLogin input::placeholder{
+    color: rgb(255, 255, 255) !important;
+
+}
+
+.login-bottom-container {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.login-bottom-container a {
+    text-decoration: none;
+    color: red;
+}
+
+.login-modal-close {
+    color: red !important;
+    margin-top: 2%;
+    border-bottom: 2px black solid;
+    border-top: 2px rgb(0, 0, 0) solid;
+    padding: 2%;
+}
+
+.login-modal-close:hover {
+    color: white !important;
+    box-shadow: 0px 0px 12px 2px red;
+}
+
+@media (min-width: 1027px) {
+    .login-container {
+        width: 100% !important;
+        position: absolute;
+        top: 12%;
+        left: 28%;
+        z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 1025px) {
+    .login-container {
+        width: 90% !important;
+            position: absolute;
+            top: 15%;
+            left: 26%;
+            z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .login-container {
+        width: 80% !important;
+            position: absolute;
+            top: 15%;
+            left: 17%;
+            z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 426px) {
+    .login-container {
+        width: 60%;
+        position: absolute;
+        top: 20%;
+        left: 9%;
+        z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .login-bottom-container {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 376px) {
+    .login-container {
+        width: 60%;
+        position: absolute;
+        top: 20%;
+        left: 9%;
+        z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .login-bottom-container {
+        padding-top: 5%;
+        text-align: center;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .login-container {
+        width: 55%;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+
+        z-index: -1 !important;
+    }
+
+    .login-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+ .login-bottom-container {
+    padding-top: 5%;
+    text-align: center;
+    font-size: 10px;
+        }
+}

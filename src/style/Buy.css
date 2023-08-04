@@ -1,0 +1,66 @@
+.carousel {
+    z-index: 0;
+    position: absolute;
+    top: 6%;
+}
+
+@media screen and (max-width: 1025px) {
+    .carousel {
+        position: relative;
+        top: 5%;
+        width: 85%;
+        left: -4%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+   .carousel {
+    position: relative;
+    top: 30%;
+    width: 100%;
+   }
+   
+}
+
+
+@media screen and (max-width: 769px) {
+    .carousel {
+        position: absolute;
+        top: 4%;
+        left: -8%;
+        width: 100%;
+        z-index: -1 !important;
+    }
+
+}
+
+@media screen and (max-width: 426px) {
+    .carousel {
+        position: absolute;
+        top: 20%;
+        left: -3%;
+        width: 100%;
+        z-index: -1 !important;
+    }
+
+}
+
+@media screen and (max-width: 376px) {
+    .carousel {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        z-index: -1 !important;
+    }
+
+}
+
+@media screen and (max-width: 321px) {
+    .carousel {
+        position: absolute;
+        top: 20%;
+        width: 100%;
+        z-index: -1 !important;
+    }
+
+}

@@ -1,0 +1,279 @@
+.rentContainer {
+display: grid;
+grid-template-columns: repeat(3, 37vw);
+gap: 10px;
+z-index: -1;
+
+}
+
+.containerCards {
+padding-top: 50px;
+padding-bottom: 50px;
+display: grid;
+grid-template-columns: repeat(3, 55%);
+align-items: center;
+justify-content: center;
+justify-items: center;
+gap: 2.5vw;
+z-index: -1 !important;
+}
+
+.containerButtonsSideBar {
+color: rgb(251, 251, 251);
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: grid;
+grid-template-columns: 15vw;
+font-family: Georgia, 'Times New Roman', Times, serif;
+max-width: fit-content;
+min-width: fit-content;
+height: 50vh;
+border-top-right-radius: 5%;
+border-bottom-right-radius: 5%;
+padding: 10px;
+position: sticky;
+align-content: space-evenly;
+justify-items: center;
+align-items: center;
+top: 14vw;
+margin-left: -10px;
+background: rgba(99, 99, 99, 0.7);
+-webkit-backdrop-filter: blur(7px);
+backdrop-filter: blur(7px);
+border: 1px solid rgba(245, 216, 216, 0.35);
+}
+
+select {
+background-color: transparent;
+border: none;
+color: rgb(0, 0, 0);
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 17px;
+word-spacing: 2px;
+text-align: center;
+justify-content: center;
+}
+
+select option {
+color: rgb(214, 214, 214);
+background-color: black;
+border: none;
+font-size: 16px;
+}
+
+.image {
+position: relative;
+width: 20vw;
+border-radius: 5px;
+box-shadow: 0px 0px 10px 0.5px rgba(255, 255, 255, 0.716) !important;
+z-index: 300 !important;
+}
+
+.image__img {
+display: block;
+width: 100%;
+height: 70vh;
+z-index: 300 !important;
+}
+
+.image__overlay {
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+width: 100%;
+height: 100%;
+background: rgba(0, 0, 0, 0.767);
+color: #ffffff;
+font-family: 'Quicksand', sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+opacity: 0;
+transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+backdrop-filter: blur(15px);
+}
+
+.image__overlay--primary {
+background: #0000005e;
+backdrop-filter: blur(10px);
+}
+
+.image__overlay>* {
+transform: translateY(20px);
+transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+opacity: 1;
+}
+
+.image__overlay:hover>* {
+transform: translateY(0);
+}
+
+.image__title {
+font-size: 5em;
+font-weight: bold;
+}
+
+h3 {
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
+
+h4 {
+color: goldenrod;
+font-size: 18px;
+}
+
+.image__description {
+font-size: 2em;
+margin-top: 0.25em;
+}
+
+/* _______________RESPONSIVE___________________ */
+
+@media (max-width: 1245px) {
+.rentContainer {
+grid-template-columns: 65% 80%;
+width: 60%;
+}
+
+.containerCards {
+grid-template-columns: repeat(2, 65%);
+gap: 2vw;
+}
+
+.containerButtonsSideBar {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+max-width: 55%;
+top: 20vw;
+}
+
+.image {
+width: 25vw;
+}
+
+.image__img {
+height: 60vh;
+}
+
+.image__title {
+font-size: 3em;
+}
+
+h3 {
+font-size: 20px;
+}
+
+h4 {
+font-size: 14px;
+}
+
+.image__description {
+font-size: 1.5em;
+}
+}
+
+@media (max-width: 832px) {
+.rentContainer {
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+
+.containerCards {
+padding-top: 70px;
+padding-bottom: 0px;
+display: grid;
+position: absolute;
+grid-template-columns: 50% 50%;
+margin-inline: 0 auto;
+top: 25%;
+align-items: center;
+justify-content: center;
+justify-items: center;
+gap: 4vw;
+}
+
+.containerButtonsSideBar {
+color: rgb(251, 251, 251);
+font-size: 16px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: grid;
+grid-template-columns: repeat(4, 150px);
+grid-template-rows: repeat(2, 50px);
+font-family: Georgia, 'Times New Roman', Times, serif;
+background: none ;
+border: none;
+gap: 2%;
+max-height: 10vh;
+max-width: 80vw;
+min-width: 60vw;
+padding: 20px;
+align-items: center;
+align-content: center;
+position: relative;
+top: 10vw !important;
+margin-left: 5%;
+z-index: -1;
+box-shadow: none !important;
+}
+
+
+.image {
+width: 25vw;
+}
+
+.image__img {
+height: 60vh;
+}
+
+.image__title {
+font-size: 3em;
+}
+
+h3 {
+font-size: 20px;
+}
+
+h4 {
+font-size: 14px;
+}
+
+.image__description {
+font-size: 1.5em;
+}
+
+    select {
+        background-color: transparent;
+        border: none;
+        color: rgb(0, 0, 0);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
+    select option {
+        color: rgb(214, 214, 214);
+        background-color: black;
+        border: none;
+        font-size: 16px;
+    }
+
+    .image {
+        width: 30vw;
+        margin-left: 60% !important;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px 0.5px rgba(255, 255, 255, 0.716) !important;
+    }
+}
